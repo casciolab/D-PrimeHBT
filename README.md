@@ -13,8 +13,11 @@ This version utilizes **empirically-derived z-scores** based on the **pooled mea
 ## ✨ Key Features
 
 ✅ Per-subject d′ computation
-✅ Empirical z-score computation using pooled statistics  
+
+✅ Empirical z-score computation using pooled statistics 
+
 ✅ Flexible input structure for heartbeat and response times  
+
 ✅ Clean and modular MATLAB implementation
 
 ---
