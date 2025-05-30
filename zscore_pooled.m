@@ -1,5 +1,5 @@
 function z = zscore_pooled(x)
-% zscore_empirical - Computes z-scores using pooled mean and std
+% zscore_pooled - Computes z-scores using pooled mean and std
 %
 % INPUT:
 %   x - vector of proportions (e.g., hit rates or false alarm rates)
