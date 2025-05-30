@@ -37,7 +37,7 @@ We compute **d′ empirically** by standardizing hit and false alarm rates again
 ---
 
 ## 📦 Repository Structure
-
+```text
 ├── compute_dprime_heartbeat.m # Main script for d' computation
 ├── zscore_empirical.m # Custom z-score function with pooled stats
 ├── example_data.mat # Sample data (heartbeat + response timings)
@@ -60,7 +60,7 @@ data(2).responses  = [...];
 
 ---
 ## 🚀 Getting Started
-
+```matlab
 ### 1. Load Example Data
 ```matlab
 load('example_data.mat'); % Contains heartbeat_times, response_times
@@ -75,7 +75,7 @@ Output Example:
 
 ---
 📐 How It Works
-
+```matlab
 🧮 Z-Score Function
 The custom zscore_empirical.m computes z-values as:
 
