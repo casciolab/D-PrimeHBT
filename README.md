@@ -86,9 +86,8 @@ The custom zscore_empirical.m computes z-values as:
 
 Where:
 ✅ p is each subject’s hit or FA rate,
-✅ pooled_mean and pooled_std are derived from the distribution across all subjects, allowing d′ to reflect relative sensitivity.
-
-
+✅ pooled_mean and pooled_std are derived from the distribution across all subjects,
+allowing d′ to reflect relative sensitivity.
 ```
 ---
 ## 📖 Citation
