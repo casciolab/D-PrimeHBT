@@ -49,7 +49,7 @@ We compute **d′ empirically** by standardizing hit and false alarm rates again
 
 ### Example: Struct Array Format
 
-```matlab
+```
 data(1).id = 'sub01';
 data(1).heartbeats = [0.8, 1.6, 2.4, 3.2, 4.0];
 data(1).responses  = [0.85, 1.7, 3.25];
@@ -57,12 +57,12 @@ data(1).responses  = [0.85, 1.7, 3.25];
 data(2).id = 'sub02';
 data(2).heartbeats = [...];
 data(2).responses  = [...];
-```matlab
+```
 ---
 ## 🚀 Getting Started
-```matlab
+```
 ### 1. Load Example Data
-```matlab
+```
 load('example_data.mat'); % Contains heartbeat_times, response_times
 
 results = compute_dprime_heartbeat(heartbeat_times, response_times);
@@ -75,7 +75,7 @@ Output Example:
 ```matlab
 ---
 ## 📐 How It Works
-```matlab
+```
 # 🧮 Z-Score Function
 The custom zscore_empirical.m computes z-values as:
 
