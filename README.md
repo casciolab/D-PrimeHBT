@@ -57,7 +57,7 @@ data(1).responses  = [0.85, 1.7, 3.25];
 data(2).id = 'sub02';
 data(2).heartbeats = [...];
 data(2).responses  = [...];
-```
+```matlab
 ---
 ## 🚀 Getting Started
 ```matlab
@@ -72,11 +72,11 @@ Output Example:
   ________   _____   ______    _____________   ____________________   _______
   'sub01'    3        1         2               2                     1.42
   'sub02'    4        0         1               3                     2.01
-```
----
-📐 How It Works
 ```matlab
-🧮 Z-Score Function
+---
+## 📐 How It Works
+```matlab
+# 🧮 Z-Score Function
 The custom zscore_empirical.m computes z-values as:
 
     z = (x - pooled_mean) / pooled_std;
@@ -86,7 +86,7 @@ Where:
 ✅ pooled_mean and pooled_std are derived from the distribution across all subjects, allowing d′ to reflect relative sensitivity.
 
 
-
+```
 ---
 📖 Citation
 If this toolbox is useful in your research, please cite it:
