@@ -42,8 +42,7 @@ We compute **d′ empirically** by standardizing hit and false alarm rates again
 ## 📦 Repository Structure
 ```text
 ├── compute_dprime_heartbeat.m # Main script for d' computation
-├── zscore_empirical.m # Custom z-score function with pooled stats
-├── example_data.mat # Sample data (heartbeat + response timings)
+├── zscore_pooled.m # Custom z-score function with pooled stats
 ├── README.md
 └── LICENSE
 ```
