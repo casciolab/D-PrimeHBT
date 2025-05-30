@@ -58,11 +58,12 @@ data(2).id = 'sub02';
 data(2).heartbeats = [...];
 data(2).responses  = [...];
 ```
+
 ---
 ## 🚀 Getting Started
 ```
 ### 1. Load Example Data
-```
+
 load('example_data.mat'); % Contains heartbeat_times, response_times
 
 results = compute_dprime_heartbeat(heartbeat_times, response_times);
@@ -72,7 +73,7 @@ Output Example:
   ________   _____   ______    _____________   ____________________   _______
   'sub01'    3        1         2               2                     1.42
   'sub02'    4        0         1               3                     2.01
-```matlab
+```
 ---
 ## 📐 How It Works
 ```
