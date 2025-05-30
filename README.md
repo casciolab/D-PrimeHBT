@@ -64,17 +64,26 @@ data(2).responses  = [...];
 ---
 ## 🚀 Getting Started
 ```
-### 1. Load Example Data
+### 1. Load Data
+% Example dataset for 2 subjects
+data(1).id = 'subj01';
+data(1).heartbeats = [0 1 2 3 4 5 6 7 8 9];   % Heartbeats every 1 second
+data(1).responses = [0.8 2.1 3.1 5.2 5.8 7.9]; % Responses some inside heartbeat intervals
 
-load('example_data.mat'); % Contains heartbeat_times, response_times
+data(2).id = 'subj02';
+data(2).heartbeats = [0 1.2 2.3 3.5 4.8 6 7.5 9]; 
+data(2).responses = [0.5 1.3 2.6 3.7 5.1 6.8 7.7 8.8 9.5];
 
-results = compute_dprime_heartbeat(heartbeat_times, response_times);
+results = compute_dprime_heartbeat(data);
+disp(results)
 
-Output Example:
- id       hits    misses    false_alarms    correct_rejections    d_prime
-  ________   _____   ______    _____________   ____________________   _______
-  'sub01'    3        1         2               2                     1.42
-  'sub02'    4        0         1               3                     2.01
+results =
+
+  2×7 table
+    id      heartbeats    hits   misses     false_alarms    correct_rejections    d_prime
+  ________ ____________  _____   ______    _____________   ____________________   _______
+  'sub01'       10         5        4            1                 4              -1.9507
+  'sub02'        8         7        0            1                 6               0.87848
 ```
 ---
 ## 📐 How It Works
