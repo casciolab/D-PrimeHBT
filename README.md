@@ -43,7 +43,7 @@ We compute **d′ empirically** by standardizing hit and false alarm rates again
 ├── example_data.mat # Sample data (heartbeat + response timings)
 ├── README.md
 └── LICENSE
-
+```
 ---
 ## 🧪 Input Format
 
