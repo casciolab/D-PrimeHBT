@@ -77,7 +77,6 @@ Output Example:
 ---
 ## 📐 How It Works
 ```
-# 🧮 Z-Score Function
 The custom zscore_empirical.m computes z-values as:
 
     z = (x - pooled_mean) / pooled_std;
@@ -89,7 +88,7 @@ Where:
 
 ```
 ---
-📖 Citation
+## 📖 Citation
 If this toolbox is useful in your research, please cite it:
 
 @software{Dtectingthebeat,
