@@ -57,7 +57,7 @@ data(1).responses  = [0.85, 1.7, 3.25];
 data(2).id = 'sub02';
 data(2).heartbeats = [...];
 data(2).responses  = [...];
-
+```
 ---
 ## 🚀 Getting Started
 ```matlab
@@ -72,7 +72,7 @@ Output Example:
   ________   _____   ______    _____________   ____________________   _______
   'sub01'    3        1         2               2                     1.42
   'sub02'    4        0         1               3                     2.01
-
+```
 ---
 📐 How It Works
 ```matlab
