@@ -57,9 +57,8 @@ data(2).id = 'sub02';
 data(2).heartbeats = [...];
 data(2).responses  = [...];
 
-
+---
 ## 🚀 Getting Started
-
 ### 1. Load Example Data
 ```matlab
 load('example_data.mat'); % Contains heartbeat_times, response_times
@@ -72,6 +71,7 @@ Output Example:
   'sub01'    3        1         2               2                     1.42
   'sub02'    4        0         1               3                     2.01
 
+---
 📐 How It Works
 🧮 Z-Score Function
 The custom zscore_empirical.m computes z-values as:
@@ -84,7 +84,7 @@ Where:
 
 
 
-
+---
 📖 Citation
 If this toolbox is useful in your research, please cite it:
 
